@@ -1,4 +1,4 @@
 export default {
-    header: "This is about us",
-    view: "aboutMe"
-  };
+  header: "This is about us",
+  view: "aboutMe"
+};

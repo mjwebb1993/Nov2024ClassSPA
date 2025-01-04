@@ -15,5 +15,5 @@ export default navItems => {
         ${navItems.map(item => navItem(item)).join("")}
       </ul>
     </nav>
-  `
-}
+  `;
+};
