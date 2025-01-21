@@ -13,6 +13,7 @@ const PORT = process.env.PORT || 4040;
 // Initialize the Express application
 const app = express();
 
+// Connect to MONGODB
 mongoose.connect(process.env.MONGODB);
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "Connection Error:"));
